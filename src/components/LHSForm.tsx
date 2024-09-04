@@ -65,7 +65,7 @@ export default function LHSForm({ score, setScore }: LHSFormProps) {
       {score > 0 ? (
         <AlertBanner title={'Score'} description={'Total Score: ' + score} />
       ) : null}
-      <h1>LHS Pathways Form</h1>
+      <h1>HSVLC Pathways Form</h1>
 
       <RadioOptionGroup
         label='Type'
